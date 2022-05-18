@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.carousel-item img{
+width: 100%;
+height: 90vh;
+}
+.nav-item a{
+font-weight: 400;
+font-size: 25px;
+}
+.img-fluid{
+    border-radius: 15px;  
+}
+.card {
+    box-shadow: 4px 4px 5px 4px gray;
+    border-radius: 15px;  
+}
+#ft:hover{
+    background-color: darkblue;
+}
+#ft-1:hover{
+    background-color: rgb(44, 203, 23);
+} 
+#ft-2:hover{
+    background-color: rgb(139, 0, 21);
+}
+
+.d-flex{
+    justify-content: end;
+}

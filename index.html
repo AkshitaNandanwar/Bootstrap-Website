@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- navbar is start -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto m-lg-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active " aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="http://127.0.0.1:5500/AboutUs.html#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="http://127.0.0.1:5500/Services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="http://127.0.0.1:5500/Gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="http://127.0.0.1:5500/Contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" >
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-warning" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!-- navbar is end -->
+
+        <!-- carousel slider -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images for portpolia 2/buildiing.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="my-15">Buildng of mumbai</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images for portpolia 2/lotus temple.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Lotus Temple</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./images for portpolia 2/india gate.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>India Gate</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <!-- header completed with the help of rahul and vikas -->
+
+ <!--  about us  started here-->
+    <section class="main-about my-5">
+
+        <div class="text-center">
+            <h1> About Us</h1>
+            <hr w-30 />
+        </div>
+        <div class="container"> 
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-xxl-6 col-12">
+                    <!-- for that lne use foar responsive -->
+
+                    <figure><img class="img-fluid" src="./images for portpolia 2/akshita-3.jpg" alt="Akshita Journey">
+                    </figure>
+                </div>
+                <div
+                    class="col-lg-6 col-md-6 col-xxl-6 col-12 d-flex justify-content-center align-item-start flex-column">
+
+                    <h1>Akshita Journey</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ipsam beatae eius saepe eveniet,
+                        sit totam minima tenetur aut quis facilis debitis ipsum explicabo! Alias, veniam adipisci. Odit
+                        odio sapiente similique modi, aperiam asperiores vel natus quibusdam dolor maxime cumque ipsam
+                        est quia accusamus excepturi pariatur qui veritatis fugiat blanditiis. Atque, dolores aspernatur
+                        vitae facilis accusamus itaque maiores quod aut magnam voluptas, placeat modi, voluptatum
+                        temporibus? Inventore et non voluptatem sequi minima enim, vel exercitationem hic? Eaque
+                        expedita unde est rem. Placeat beatae deserunt repellendus.</p>
+                    <button type="button" class="btn btn-outline-info" data-bs-toggle="tooltip">Check More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about us  completed here -->
+
+
+    <!--  Services started here-->
+    <section>
+        <div class="contaner-fluid"></div>
+        <h1 class="text-center ">Services</h1>
+        <hr w-25 mx-auto />
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <img src="/images for portpolia 2/lotus temple.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">lotus temple</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <img src="/images for portpolia 2/buildiing.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">buildiing</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <div class="card">
+                    <img src="/images for portpolia 2/india gate.jpeg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">india gate</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services  completed here -->
+
+
+
+    <!-- Gallery  start here -->
+    <section class="my-5">
+        <!-- margin y axis =my -->
+
+        <div class="text-center">
+            <h1 class="display-4">Gallery</h1>
+            <hr w-25 />
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-12">
+                <figure> <img src="/images for portpolia 2/buildiing.jpeg" class="img-fluid" alt=""></figure>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <figure> <img src="/images for portpolia 2/india gate.jpeg" class="img-fluid" alt=""></figure>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <figure> <img src="/images for portpolia 2/india gate.jpeg" class="img-fluid" alt=""></figure>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <figure> <img src="/images for portpolia 2/lotus temple.jpeg" class="img-fluid" alt=""></figure>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <figure> <img src="/images for portpolia 2/buildiing.jpeg" class="img-fluid" alt=""></figure>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <figure> <img src="/images for portpolia 2/lotus temple.jpeg" class="img-fluid" alt=""></figure>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <figure> <img src="/images for portpolia 2/india gate.jpeg" class="img-fluid" alt=""></figure>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <figure> <img src="/images for portpolia 2/lotus temple.jpeg" class="img-fluid" alt=""></figure>
+            </div>
+            <div class="col-md-4 col-lg-4 col-12">
+                <figure> <img src="/images for portpolia 2/myImage.jpg" class="img-fluid" alt=""></figure>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Gallery  completed here -->
+
+   <!-- Contact Us  section start from here -->
+<section>
+    <div class="text-center display-4 my-5">
+      <h1>Contact Us</h1>
+      <hr class="w-35 mx-auto" />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xxl-8 col-10 col-md-8  mx-auto">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Enter Your Name :</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+            </div>
+            <div class="mb-3">
+              <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                <option selected>Select city</option>
+                <option value="1">Mumbai</option>
+                <option value="2">Delhi</option>
+                <option value="3">Pune</option>
+                <option value="4">Noida</option>
+                <option value="5">Bengluru</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="label" class="p-md-4">Gender</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                  value="option1">
+                <label class="form-check-label" for="inlineRadio1">Male</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                  value="option2">
+                <label class="form-check-label" for="inlineRadio2">Other</label>
+              </div>
+  
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">write your opinion</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary ">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Us  section end from here -->
+     
+      <!-- footer start here -->
+  <footer class="text-center text-white bg-dark">
+    <p  id="ft" >@copyrightakshita.nandanwara23@gmail.com 2021</p>
+</footer>
+
+<!-- footer End here -->
+
+</body>
+
+</html>
